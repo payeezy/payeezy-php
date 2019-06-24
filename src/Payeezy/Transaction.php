@@ -131,7 +131,7 @@ class Payeezy_Transaction
   public function doPrimaryTransaction($args = array())
   {
     $this->url = $this->baseURL;
-    $payload = json_encode($args, JSON_FORCE_OBJECT);
+    $payload = json_encode($args);
     $headerArray = $this->hmacAuthorizationToken($payload);
   
     $response_in_JSON = $this->postTransaction($payload, $headerArray);

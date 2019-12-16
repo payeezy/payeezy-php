@@ -1,7 +1,7 @@
 # Payeezy API Client Library for PHP
 [![Build Status](https://travis-ci.org/payeezy/payeezy-php.svg?branch=master)](https://travis-ci.org/payeezy/payeezy-php)
 ## Description
-Payeezy PHP SDK is built to make developers life easy to integrate with the Payeezy API (https://developers.payeezy.com) for processing payements with various payment methods. Download the SDK, follow instructions to start testing against the sandbox environment with developer credentials.
+Payeezy PHP SDK is built to make developers life easy to integrate with the Payeezy API (https://developer.payeezy.com) for processing payements with various payment methods. Download the SDK, follow instructions to start testing against the sandbox environment with developer credentials.
 ## Installation ##
 
 You can use **Composer** or simply **Download the Release**
